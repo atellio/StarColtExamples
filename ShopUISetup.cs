@@ -259,7 +259,7 @@ public class ShopUISetup : MonoBehaviour
                 continue;
 
             lockedList[i].transform.SetSiblingIndex(index);
-            print("set " + lockedList[i].GetProductID() + " to index: " + index.ToString());
+            print($"set {lockedList[i].GetProductID()} to index: {index.ToString()}");
             index++;
         }
 
@@ -267,7 +267,7 @@ public class ShopUISetup : MonoBehaviour
         for (int i = 0; i < lockedNonPurchasables.Count; i++)
         {
             lockedNonPurchasables[i].transform.SetSiblingIndex(index);
-            print("set " + lockedList[i].GetProductID() + " to index: " + index.ToString());
+            print($"set {lockedList[i].GetProductID()} to index: {index.ToString()}");
             index++;
         }
 
