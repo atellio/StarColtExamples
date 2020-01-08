@@ -1,6 +1,7 @@
 ﻿/*
 This code handles the instantiation and sorting of a series of UI buttons in the shop screen of Oshka.
-I'm proud of this code because: x and y.
+I'm proud of this code because it dynamically positions a large number of purchasables in a grid layout based on
+certain elements of each purchasable (e.g. whether it has been unlocked yet)
 */
 
 
